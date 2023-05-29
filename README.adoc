@@ -1,0 +1,36 @@
+// Variáveis com informações sobre o evento
+:contato_comissao: caadalovelace254@gmail.com 
+:contato_comissao2: saspi0101@gmail.com 
+:nome_sistema: Sem Nome definido no momento!
+
+// Configurações do site
+:icons: font
+:allow-uri-read:
+
+//Estilo do Sumário
+ifndef::env-github[:toc2:]
+
+//após os : insere o texto que deseja ser visível
+:toc-title: Sumário
+:figure-caption: Figura
+//numerar titulos
+:numbered:
+:source-highlighter: highlightjs
+:chapter-label:
+:doctype: book
+:lang: pt-BR
+//3+| mesclar linha tabela
+
+ifdef::env-github[:outfilesuffix: .adoc]
+
+ifdef::env-github,env-browser[]
+// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+= Projeto Integrador Introdução a Conectividade - {nome_sistema}
+
